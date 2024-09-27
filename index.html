@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Ilustrativa</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                text-align: center;
+            }
+
+            #header {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            #header img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            .caption {
+                font-size: 12px;
+                text-align: center;
+                color: #777;
+            }
+
+            #main-content {
+                width: 80%;
+                margin: 0 auto;
+            }
+
+            nav {
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            nav a {
+                margin: 0 15px;
+                text-decoration: none;
+                color: #333;
+                padding: 10px 20px;
+                background-color: #ddd;
+                border-radius: 5px;
+            }
+
+            @media (max-width: 600px) {
+                #header, #main-content {
+                    width: 100%;
+                }
+
+                nav a {
+                    display: block;
+                    margin: 10px 0;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header id="header">
+            <img src="cabecalho.png" alt="Imagem Cabeçalho">
+            <div class="caption">Imagem meramente ilustrativa</div>
+        </header>
+
+        <main id="main-content">
+            <h1>O que é HTML?</h1>
+            <p>
+                A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Um hipertexto é um texto usado para fazer referência a outros textos, enquanto uma linguagem de marcação é composta por uma série de marcações que dizem para os servidores da web qual é o estilo e a estrutura de um documento.
+            </p>
+            <p>
+                O HTML não é considerado uma linguagem de programação, já que ele não pode criar funcionalidades dinâmicas. Ao invés disso, com o HTML, os usuários podem criar e estruturar seções, parágrafos e links usando elementos, tags e atributos.
+            </p>
+            <p>Obrigado pela leitura até aqui :) </p>
+        </main>
+
+        <nav>
+            <a href="page1.html">Pagina 1</a>
+            <a href="page2.html">Pagina 2</a>
+        </nav>
+    </body>
+    </html>
